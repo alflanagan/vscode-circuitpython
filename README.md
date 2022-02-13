@@ -22,6 +22,9 @@ The extension will currently activate when any of the following occur:
   * `circuitpython.selectSerialPort`
   * `circuitpython.closeSerialMonitor`
 
+NOTE: Best results seem to occur when you open the CIRCUITPY folder with VS Code, then do 'save workspace'
+into that folder. (Of course, this implies the board is already connected and powered.)
+
 Upon activation, the extension will check for the latest
 [Adafruit_CircuitPython_Bundle](https://github.com/adafruit/Adafruit_CircuitPython_Bundle)
 and download it if needed. It'll then load that library metadata into the
